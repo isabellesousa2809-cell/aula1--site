@@ -3,60 +3,289 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Um cantinho dedicado à série Outer Banks: aventura, mistério e amizade.">
-  <title>Outer Banks | Entre Pogues e Kooks</title>
+  <meta name="description" content="Outer Banks — os seis Pogues, suas histórias, cotidiano, aventuras e tudo que enfrentam.">
+  <title>Outer Banks | Pogues para sempre</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="topo" id="inicio">
-    <a class="logo" href="#inicio" aria-label="Outer Banks - início">OUTER BANKS<span>.</span></a>
-    <nav aria-label="Menu principal">
-      <a href="#inicio">Início</a>
-      <a href="#sobre">Sobre</a>
-      <a href="#personagens">Personagens</a>
-    </nav>
-  </header>
 
-  <main>
-    <section class="hero" aria-label="Apresentação de Outer Banks">
-      <div class="hero-conteudo">
-        <p class="etiqueta">SOL • MAR • AVENTURA</p>
-        <h1>Viva como um <em>Pogue.</em></h1>
-        <p class="subtitulo">Uma ilha, um grupo de amigos e um mistério que muda tudo.</p>
-        <a class="botao" href="#sobre">Explore a história <span aria-hidden="true">↓</span></a>
-      </div>
-      <span class="hero-nota">OBX · CAROLINA DO NORTE</span>
-    </section>
+<header class="topo">
+  <div class="logo">OUTER BANKS</div>
+  <nav>
+    <a href="#inicio">Início</a>
+    <a href="#pogues">Os 6 Pogues</a>
+    <a href="#historia">História</a>
+    <a href="#frase">Frase</a>
+  </nav>
+</header>
 
-    <section class="sobre secao" id="sobre">
-      <div class="texto">
-        <p class="etiqueta">BEM-VINDO A OBX</p>
-        <h2>Mais do que uma série,<br><em>um jeito de viver.</em></h2>
-        <p><strong>Outer Banks</strong> acompanha John B e seus amigos, um grupo de adolescentes conhecidos como Pogues, que vive em uma região costeira marcada pela desigualdade entre os moradores locais e os ricos Kooks.</p>
-        <p>Entre buscas por tesouros, segredos de família e aventuras inesperadas, a série fala sobre amizade, lealdade, coragem e a vontade de encontrar o próprio lugar no mundo.</p>
-      </div>
-      <figure class="imagem">
-        <img src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=1200&q=85" alt="Ondas do mar azul chegando à praia em um dia ensolarado">
-        <figcaption>Onde cada onda guarda uma história.</figcaption>
-      </figure>
-    </section>
+<main>
+  <section id="inicio" class="hero">
+    <div class="hero-text">
+      <p class="tag">P4L • POGUES PARA SEMPRE</p>
+      <h1>Uma família que o mar juntou.</h1>
+      <p>
+        John B, Sarah, JJ, Kiara, Pope e Cleo vivem entre praias, barcos,
+        amizades, romances, segredos e caças ao tesouro. Mais do que procurar
+        ouro, eles passam a lutar uns pelos outros.
+      </p>
+      <a class="botao" href="#pogues">Conheça os Pogues</a>
+    </div>
+  </section>
 
-    <section class="personagens secao" id="personagens">
-      <p class="etiqueta">A NOSSA TURMA</p>
-      <h2>Os Pogues</h2>
-      <p class="descricao">Amigos que provam que família também é quem escolhe ficar ao seu lado.</p>
-      <div class="cartoes">
-        <article class="cartao"><span>01</span><h3>John B</h3><p>O líder do grupo, movido pela busca por respostas sobre o passado de sua família.</p></article>
-        <article class="cartao"><span>02</span><h3>Sarah Cameron</h3><p>Entre dois mundos, ela encontra novas escolhas, coragem e um lugar para pertencer.</p></article>
-        <article class="cartao"><span>03</span><h3>Kiara, JJ e Pope</h3><p>Personalidades diferentes, unidos por uma amizade que enfrenta qualquer desafio.</p></article>
-      </div>
-    </section>
-  </main>
+  <section class="galeria-inicio">
+    <div class="galeria-item grande">
+      <img src="https://d1qxviojg2h5lt.cloudfront.net/images/01GS8F606BYVQZAVF56802YFZH/outer-banks-s2-finale.webp" alt="Grupo de amigos de Outer Banks na praia">
+      <span>Os Pogues</span>
+    </div>
+    <div class="galeria-item">
+      <img src="https://hips.hearstapps.com/hmg-prod/images/outerbanks-206-unit-00800rc-1627582090.jpg" alt="John B em Outer Banks">
+      <span>John B</span>
+    </div>
+    <div class="galeria-item">
+      <img src="https://i.pinimg.com/736x/3c/46/b6/3c46b6c47328e5ce5d8ee0eca5d43862.jpg" alt="Sarah Cameron em Outer Banks">
+      <span>Sarah</span>
+    </div>
+    <div class="galeria-item">
+      <img src="https://assets.vader.news/__export/1762621536761/sites/gadgets/img/2023/08/01/jj_maybank_outer_banks.jpg_994997500.jpg" alt="JJ Maybank em Outer Banks">
+      <span>JJ</span>
+    </div>
+    <div class="galeria-item">
+      <img src="https://assets.teenvogue.com/photos/60f6d6e4751e6ffb59ca45f5/master/w_1600%2Cc_limit/OUTERBANKS_201_Unit_01492RC.jpg" alt="Pope e Kiara em Outer Banks">
+      <span>Pope & Kie</span>
+    </div>
+    <div class="galeria-item">
+      <img src="https://dnm.nflximg.net/api/v6/2DuQlx0fM4wd1nzqm5BFBi6ILa8/AAAAQSiqWuKwFOdBT8mJYOTbQBDA9lWxcaFGW_1OGrVpmaP8NZ_z4yguV4tyi3oPvHqQDyJHTKYeDNYqzCtKkYMAtgBZYrN0p8eLY0iMdTfCZgnOnIBlfSIv4oRoXEbwxL9UD6YtCxSLSP7_93ep6PL7LRM6bM4.jpg?r=7d0" alt="Cleo e Pope em Outer Banks">
+      <span>Cleo & Pope</span>
+    </div>
+  </section>
 
-  <footer>
-    <a class="logo" href="#inicio">OUTER BANKS<span>.</span></a>
-    <p>“Pogues até o fim.”</p>
-    <small>Site de fã, sem vínculo oficial com a série. Feito com carinho por fãs de OBX.</small>
-  </footer>
+  <section id="pogues" class="secao">
+    <div class="titulo-secao">
+      <p class="tag">OS SEIS</p>
+      <h2>Quem são os Pogues?</h2>
+      <p>
+        Eles vêm de histórias diferentes, mas acabam formando uma família.
+        Cada um tem seus próprios problemas, sonhos e formas de sobreviver.
+      </p>
+    </div>
+
+    <div class="cards">
+
+      <article class="card">
+        <div class="numero">01</div>
+        <h3>John B Routledge</h3>
+        <p class="apelido">O líder • o aventureiro</p>
+        <p>
+          John B cresceu em The Cut e aprendeu cedo a se virar praticamente
+          sozinho. O desaparecimento de seu pai, Big John, muda completamente
+          seu cotidiano: em vez de viver apenas como um adolescente da ilha,
+          ele passa a investigar pistas e a procurar o Royal Merchant.
+        </p>
+        <p>
+          Ele está quase sempre entre duas coisas: tentar viver momentos
+          normais com os amigos e correr atrás de mais uma pista. A busca pelo
+          pai aproxima o grupo, mas também coloca todos em perigo. John B
+          enfrenta perseguições, fugas, perdas familiares e conflitos com os
+          Cameron. Seu relacionamento com Sarah também o coloca no meio da
+          divisão entre Pogues e Kooks.
+        </p>
+        <p>
+          Depois de reencontrar Big John, ele percebe que o pai pode estar
+          mais preocupado com o tesouro do que com ele. Mesmo assim, John B
+          continua escolhendo os amigos. Ao longo da série, ele amadurece,
+          aprende a pensar nas consequências e tenta construir uma vida que
+          não seja definida apenas pela próxima aventura.
+        </p>
+      </article>
+
+      <article class="card destaque">
+        <div class="numero">02</div>
+        <h3>Sarah Cameron</h3>
+        <p class="apelido">A Kook que virou Pogue</p>
+        <p>
+          Sarah começa do outro lado da divisão social de Kildare. Ela cresceu
+          em Figure 8, cercada de dinheiro, festas e expectativas familiares.
+          Por fora, parecia ter a vida perfeita; por dentro, enfrentava uma
+          família cheia de segredos e relações complicadas.
+        </p>
+        <p>
+          Quando se aproxima de John B, seu cotidiano muda completamente.
+          Ela deixa de aceitar o mundo dos Kooks como única possibilidade e
+          passa a viver fugas, viagens, caças ao tesouro e situações em que
+          precisa escolher em quem confiar.
+        </p>
+        <p>
+          Sarah enfrenta conflitos com o pai, a perda de pessoas importantes,
+          problemas com o irmão e momentos em que precisa reconstruir sua
+          própria identidade. No final da série, ela e John B conseguem um
+          futuro juntos e continuam ligados à família Pogue.
+        </p>
+      </article>
+
+      <article class="card">
+        <div class="numero">03</div>
+        <h3>JJ Maybank</h3>
+        <p class="apelido">O coração impulsivo do grupo</p>
+        <p>
+          JJ é o amigo que transforma qualquer ideia em aventura. Ele cresceu
+          em uma casa complicada e passou grande parte da vida tentando fugir
+          dos problemas familiares. Por isso, os Pogues se tornam sua
+          verdadeira família.
+        </p>
+        <p>
+          Seu cotidiano mistura praia, barcos, brincadeiras, confusões e
+          tentativas de ganhar dinheiro. Ao mesmo tempo, ele carrega uma
+          insegurança enorme e costuma esconder o que sente atrás de humor,
+          coragem e impulsividade.
+        </p>
+        <p>
+          Com Kiara, JJ começa a perceber que pode ser amado e que não precisa
+          enfrentar tudo sozinho. Na quarta temporada, ele descobre a verdade
+          sobre seu pai biológico e precisa lidar com mais uma ruptura
+          familiar. Sua história termina de forma trágica no Marrocos, e sua
+          ausência muda para sempre a vida dos outros cinco Pogues.
+        </p>
+      </article>
+
+      <article class="card">
+        <div class="numero">04</div>
+        <h3>Kiara Carrera</h3>
+        <p class="apelido">A Pogue por escolha</p>
+        <p>
+          Kiara é diferente dos outros porque nasceu em uma família com mais
+          dinheiro, mas nunca se identifica com o estilo de vida dos Kooks.
+          Ela prefere estar com John B, JJ e Pope, passar tempo na praia e
+          defender aquilo em que acredita.
+        </p>
+        <p>
+          Seu cotidiano é marcado pelo conflito entre a liberdade que procura
+          e as expectativas dos pais. Ela trabalha no restaurante da família,
+          tenta equilibrar a vida pessoal com as aventuras dos amigos e
+          frequentemente acaba envolvida nas consequências das decisões do
+          grupo.
+        </p>
+        <p>
+          Kiara também passa por problemas familiares, é enviada para um
+          acampamento contra a própria vontade e enfrenta perigos durante as
+          caças ao tesouro. Seu relacionamento com JJ se transforma em uma
+          das partes mais importantes de sua história. Depois de perdê-lo,
+          ela precisa lidar com o luto e continuar seguindo em frente.
+        </p>
+      </article>
+
+      <article class="card">
+        <div class="numero">05</div>
+        <h3>Pope Heyward</h3>
+        <p class="apelido">O cérebro • o estrategista</p>
+        <p>
+          Pope é o mais estudioso e cauteloso do grupo. Seus pais querem que
+          ele tenha um futuro estável e consiga uma bolsa de estudos, mas a
+          amizade com os Pogues e a história de sua família fazem com que ele
+          se envolva cada vez mais nas aventuras.
+        </p>
+        <p>
+          A vida de Pope muda quando ele descobre que é descendente de Denmark
+          Tanny. A partir daí, a busca por tesouros deixa de ser apenas uma
+          aventura: passa a ter relação direta com sua família e com o que foi
+          perdido no passado.
+        </p>
+        <p>
+          Ele também enfrenta decepções amorosas, conflitos familiares e
+          situações perigosas. Com Cleo, encontra alguém que entende sua
+          realidade e o ajuda a continuar quando ele pensa em desistir. Na
+          temporada 5, Pope precisa ainda lidar com as consequências de tudo
+          que aconteceu enquanto tenta proteger Cleo e os amigos.
+        </p>
+      </article>
+
+      <article class="card destaque">
+        <div class="numero">06</div>
+        <h3>Cleo</h3>
+        <p class="apelido">A sobrevivente • a Pogue para sempre</p>
+        <p>
+          Cleo entra na história em Nassau, nas Bahamas, trabalhando em um
+          navio e aprendendo a sobreviver por conta própria. Ela não teve a
+          mesma estrutura familiar que os outros Pogues e passou muito tempo
+          precisando confiar apenas em si mesma.
+        </p>
+        <p>
+          Depois de ajudar John B e Sarah, ela acaba chegando à Poguelândia.
+          No começo, observa os outros com desconfiança, mas aos poucos
+          percebe que encontrou algo que nunca teve: uma família escolhida.
+        </p>
+        <p>
+          Cleo se torna essencial nas fugas e nas missões porque é prática,
+          corajosa e sabe improvisar. Sua relação com Pope cresce ao longo da
+          série. Ela também enfrenta o sequestro e a perda de Terrance,
+          figura paterna importante em sua vida, e precisa continuar mesmo
+          quando tudo parece estar desmoronando.
+        </p>
+      </article>
+
+    </div>
+  </section>
+
+  <section id="historia" class="historia">
+    <div>
+      <p class="tag">MAIS DO QUE TESOUROS</p>
+      <h2>O cotidiano dos Pogues</h2>
+      <p>
+        A rotina deles nunca é realmente normal. Um dia pode começar com
+        trabalho, escola, restaurante, barcos ou uma tarde na praia e terminar
+        com uma pista escondida, uma fuga ou uma nova viagem. É justamente
+        essa mistura de momentos simples com situações enormes que faz a
+        amizade deles parecer tão forte.
+      </p>
+      <p>
+        No começo, o grupo procura tesouros porque acredita que eles podem
+        mudar suas vidas. Com o tempo, porém, a aventura passa a representar
+        outra coisa: liberdade, pertencimento e a chance de decidir o próprio
+        caminho. Eles perdem dinheiro, casas, oportunidades e pessoas que
+        amam, mas continuam voltando uns para os outros.
+      </p>
+      <p>
+        Na última temporada, depois de perder JJ, os cinco Pogues restantes
+        retornam a Outer Banks sem dinheiro e sem uma casa para chamar de sua.
+        Mesmo no pior momento, eles permanecem unidos e tentam reconstruir o
+        futuro. No fim, o ouro finalmente serve para algo maior: recuperar
+        suas terras, ajudar suas famílias e reconstruir o lugar que chamam de
+        lar.
+      </p>
+    </div>
+    <div class="mapa">
+      <span>🌊</span>
+      <strong>THE CUT</strong>
+      <small>amizade • aventura • família</small>
+      <span>☀️</span>
+      <strong>POGUELÂNDIA</strong>
+      <small>liberdade • sobrevivência • sonhos</small>
+      <span>⚓</span>
+      <strong>KILDARE</strong>
+      <small>onde tudo começou e onde tudo volta</small>
+    </div>
+  </section>
+
+  <section id="frase" class="frase">
+    <div class="aspas">“</div>
+    <blockquote>o inferno são os outros, viva sua vida e saberá</blockquote>
+    <p>— uma frase para combinar com a liberdade dos Pogues</p>
+  </section>
+
+  <section class="final">
+    <h2>Pogues para sempre.</h2>
+    <p>
+      No fim das contas, a maior aventura de Outer Banks nunca foi encontrar
+      um tesouro. Foi encontrar pessoas que ficam.
+    </p>
+    <span>P4L ♡</span>
+  </section>
+</main>
+
+<footer>
+  <p>Outer Banks • Fan site feito em HTML e CSS</p>
+  <p>As imagens são exibidas a partir de fontes externas. © Netflix e respectivos detentores de direitos.</p>
+</footer>
+
 </body>
 </html>
